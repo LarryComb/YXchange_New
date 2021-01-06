@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		468D194D257F138800566347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D194C257F138800566347 /* AppDelegate.swift */; };
 		468D194F257F138800566347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D194E257F138800566347 /* SceneDelegate.swift */; };
-		468D1951257F138800566347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D1950257F138800566347 /* ViewController.swift */; };
 		468D1954257F138800566347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468D1952257F138800566347 /* Main.storyboard */; };
 		468D1956257F138A00566347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468D1955257F138A00566347 /* Assets.xcassets */; };
 		468D1959257F138A00566347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468D1957257F138A00566347 /* LaunchScreen.storyboard */; };
+		468D196B257F15D400566347 /* ContentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D196A257F15D400566347 /* ContentViews.swift */; };
+		468D196F257F15F400566347 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D196E257F15F400566347 /* CustomViews.swift */; };
+		FB2C13CAEB6B7C5E165CF892 /* Pods_YucatanXchangeStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292AE30939E51C36FFED1E54 /* Pods_YucatanXchangeStoryboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1587EBB5E25CFEE6CF06809F /* Pods-YucatanXchangeStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YucatanXchangeStoryboard.release.xcconfig"; path = "Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard.release.xcconfig"; sourceTree = "<group>"; };
+		292AE30939E51C36FFED1E54 /* Pods_YucatanXchangeStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YucatanXchangeStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		468D1949257F138800566347 /* YucatanXchangeStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YucatanXchangeStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468D194C257F138800566347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		468D194E257F138800566347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		468D1950257F138800566347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		468D1953257F138800566347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		468D1955257F138A00566347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		468D1958257F138A00566347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		468D195A257F138A00566347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468D196A257F15D400566347 /* ContentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViews.swift; sourceTree = "<group>"; };
+		468D196E257F15F400566347 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		7211EFD56D6D09E43539E481 /* Pods-YucatanXchangeStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YucatanXchangeStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2C13CAEB6B7C5E165CF892 /* Pods_YucatanXchangeStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B787BD1015B02F1F3026C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7211EFD56D6D09E43539E481 /* Pods-YucatanXchangeStoryboard.debug.xcconfig */,
+				1587EBB5E25CFEE6CF06809F /* Pods-YucatanXchangeStoryboard.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		468D1940257F138800566347 = {
 			isa = PBXGroup;
 			children = (
 				468D194B257F138800566347 /* YucatanXchangeStoryboard */,
 				468D194A257F138800566347 /* Products */,
+				18B787BD1015B02F1F3026C0 /* Pods */,
+				96A74370F28637EC88017DEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,40 @@
 		468D194B257F138800566347 /* YucatanXchangeStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				468D194C257F138800566347 /* AppDelegate.swift */,
+				468D1965257F153700566347 /* CustomViews */,
+				468D1964257F151300566347 /* Views */,
 				468D194E257F138800566347 /* SceneDelegate.swift */,
-				468D1950257F138800566347 /* ViewController.swift */,
+				468D194C257F138800566347 /* AppDelegate.swift */,
 				468D1952257F138800566347 /* Main.storyboard */,
 				468D1955257F138A00566347 /* Assets.xcassets */,
 				468D1957257F138A00566347 /* LaunchScreen.storyboard */,
 				468D195A257F138A00566347 /* Info.plist */,
 			);
 			path = YucatanXchangeStoryboard;
+			sourceTree = "<group>";
+		};
+		468D1964257F151300566347 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				468D196A257F15D400566347 /* ContentViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		468D1965257F153700566347 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				468D196E257F15F400566347 /* CustomViews.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		96A74370F28637EC88017DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				292AE30939E51C36FFED1E54 /* Pods_YucatanXchangeStoryboard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 468D195D257F138A00566347 /* Build configuration list for PBXNativeTarget "YucatanXchangeStoryboard" */;
 			buildPhases = (
+				DB538F7A0FBA1CC3AAE39C96 /* [CP] Check Pods Manifest.lock */,
 				468D1945257F138800566347 /* Sources */,
 				468D1946257F138800566347 /* Frameworks */,
 				468D1947257F138800566347 /* Resources */,
+				4C0243E3C3F6F5256BA41B65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +178,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C0243E3C3F6F5256BA41B65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB538F7A0FBA1CC3AAE39C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YucatanXchangeStoryboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		468D1945257F138800566347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468D1951257F138800566347 /* ViewController.swift in Sources */,
 				468D194D257F138800566347 /* AppDelegate.swift in Sources */,
+				468D196F257F15F400566347 /* CustomViews.swift in Sources */,
 				468D194F257F138800566347 /* SceneDelegate.swift in Sources */,
+				468D196B257F15D400566347 /* ContentViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +372,7 @@
 		};
 		468D195E257F138A00566347 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7211EFD56D6D09E43539E481 /* Pods-YucatanXchangeStoryboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +392,7 @@
 		};
 		468D195F257F138A00566347 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1587EBB5E25CFEE6CF06809F /* Pods-YucatanXchangeStoryboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
