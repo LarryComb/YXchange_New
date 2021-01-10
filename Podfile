@@ -16,5 +16,11 @@ pod 'FirebaseMessaging','~>4.1'
 # Add the pod for Firebase Storage 
 pod 'Firebase/Storage'
 
+# Add the pod for Firebase  
+pod 'Firebase/Core'
+
+# Add the pod for Firebase Database 
+pod 'Firebase/Database'
+
 
 end
